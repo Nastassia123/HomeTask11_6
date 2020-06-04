@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Calculator operations suite</th></tr>
+<tr><td><a href="#t0">RegressionTests</a></td><td class="num">12</td><td class="num">0</td><td class="num attn">1</td><td class="num">282,599</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Calculator operations suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">RegressionTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.VerifyLoginFunctionality</td><td><a href="#m0">testLoginOption</a></td><td rowspan="1">1589807729489</td><td rowspan="1">33912</td></tr><tr><th colspan="4">RegressionTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">tests.VerifyHeaderButtonsAreClickable</td><td><a href="#m1">testBasketPageIsDisplayed</a></td><td rowspan="1">1589807863230</td><td rowspan="1">22813</td></tr><tr class="passedeven"><td><a href="#m2">testBookmarksPageIsDisplayed</a></td><td rowspan="1">1589807886046</td><td rowspan="1">10350</td></tr><tr class="passedeven"><td><a href="#m3">testComparasionListPageIsDisplayed</a></td><td rowspan="1">1589807896399</td><td rowspan="1">6105</td></tr><tr class="passedeven"><td><a href="#m4">testDeliveryPageIsDisplayed</a></td><td rowspan="1">1589807902506</td><td rowspan="1">5776</td></tr><tr class="passedeven"><td><a href="#m5">testDiscountSystemPageIsDisplayed</a></td><td rowspan="1">1589807908284</td><td rowspan="1">5971</td></tr><tr class="passedeven"><td><a href="#m6">testLoginWindowIsDisplayed</a></td><td rowspan="1">1589807914256</td><td rowspan="1">4854</td></tr><tr class="passedeven"><td><a href="#m7">testPaymentPageIsDisplayed</a></td><td rowspan="1">1589807919113</td><td rowspan="1">5418</td></tr><tr class="passedeven"><td><a href="#m8">testWarrantyPageIsDisplayed</a></td><td rowspan="1">1589807924532</td><td rowspan="1">5927</td></tr><tr class="passedeven"><td><a href="#m9">testWishListPageIsDisplayed</a></td><td rowspan="1">1589807930460</td><td rowspan="1">6561</td></tr><tr class="passedodd"><td rowspan="1">tests.VerifyProductAdditionToComparasionList</td><td><a href="#m10">testProductAdditionToTheList</a></td><td rowspan="1">1589807818994</td><td rowspan="1">37230</td></tr><tr class="passedeven"><td rowspan="1">tests.VerifyProductIsAddedToCard</td><td><a href="#m11">testAdditionProductToCard</a></td><td rowspan="1">1589807772891</td><td rowspan="1">39216</td></tr><tr class="passedodd"><td rowspan="1">tests.VerifyProductsCatalogOptions</td><td><a href="#m12">testChooseProductFromCatalog</a></td><td rowspan="1">1589807943662</td><td rowspan="1">59722</td></tr></tbody>
+</table>
+<h2>RegressionTests</h2><h3 id="m0">tests.VerifyLoginFunctionality#testLoginOption</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Вход/регистрация</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),  &apos;Подписка&apos;)]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW3264&apos;, ip: &apos;10.6.57.86&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\NASTAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 053e083cb27eb6df6f5fb7f6209fb887
+*** Element info: {Using=xpath, value=//p[contains(text(),  &apos;Подписка&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.PersonalAreaPage.personalPageHeader(PersonalAreaPage.java:10)
+	at tests.VerifyLoginFunctionality.testLoginOption(VerifyLoginFunctionality.java:25)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.VerifyHeaderButtonsAreClickable#testBasketPageIsDisplayed</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Корзина</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.VerifyHeaderButtonsAreClickable#testBookmarksPageIsDisplayed</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Закладки</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.VerifyHeaderButtonsAreClickable#testComparasionListPageIsDisplayed</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Сравнение товаров</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.VerifyHeaderButtonsAreClickable#testDeliveryPageIsDisplayed</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Доставка</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.VerifyHeaderButtonsAreClickable#testDiscountSystemPageIsDisplayed</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Система скидок</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.VerifyHeaderButtonsAreClickable#testLoginWindowIsDisplayed</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Вход/регистрация</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.VerifyHeaderButtonsAreClickable#testPaymentPageIsDisplayed</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Оплата</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.VerifyHeaderButtonsAreClickable#testWarrantyPageIsDisplayed</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Гарантия</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.VerifyHeaderButtonsAreClickable#testWishListPageIsDisplayed</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Закладки</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.VerifyProductAdditionToComparasionList#testProductAdditionToTheList</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Сравнение товаров</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.VerifyProductIsAddedToCard#testAdditionProductToCard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.VerifyProductsCatalogOptions#testChooseProductFromCatalog</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Закладки</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

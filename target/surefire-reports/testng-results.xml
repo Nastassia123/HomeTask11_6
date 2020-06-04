@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="13" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Calculator operations suite" duration-ms="282599" started-at="2020-05-18T13:15:21Z" finished-at="2020-05-18T13:20:04Z">
+    <groups>
+    </groups>
+    <test name="RegressionTests" duration-ms="282599" started-at="2020-05-18T13:15:21Z" finished-at="2020-05-18T13:20:04Z">
+      <class name="tests.VerifyHeaderButtonsAreClickable">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.VerifyHeaderButtonsAreClickable@35d019a3]" name="setUp" is-config="true" duration-ms="6105" started-at="2020-05-18T13:17:37Z" finished-at="2020-05-18T13:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBasketPageIsDisplayed(java.lang.String)[pri:0, instance:tests.VerifyHeaderButtonsAreClickable@35d019a3]" name="testBasketPageIsDisplayed" duration-ms="22813" started-at="2020-05-18T13:17:43Z" finished-at="2020-05-18T13:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Корзина]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasketPageIsDisplayed -->
+        <test-method status="PASS" signature="testBookmarksPageIsDisplayed(java.lang.String)[pri:0, instance:tests.VerifyHeaderButtonsAreClickable@35d019a3]" name="testBookmarksPageIsDisplayed" duration-ms="10350" started-at="2020-05-18T13:18:06Z" finished-at="2020-05-18T13:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Закладки]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookmarksPageIsDisplayed -->
+        <test-method status="PASS" signature="testComparasionListPageIsDisplayed(java.lang.String)[pri:0, instance:tests.VerifyHeaderButtonsAreClickable@35d019a3]" name="testComparasionListPageIsDisplayed" duration-ms="6105" started-at="2020-05-18T13:18:16Z" finished-at="2020-05-18T13:18:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Сравнение товаров]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComparasionListPageIsDisplayed -->
+        <test-method status="PASS" signature="testDeliveryPageIsDisplayed(java.lang.String)[pri:0, instance:tests.VerifyHeaderButtonsAreClickable@35d019a3]" name="testDeliveryPageIsDisplayed" duration-ms="5776" started-at="2020-05-18T13:18:22Z" finished-at="2020-05-18T13:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Доставка]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeliveryPageIsDisplayed -->
+        <test-method status="PASS" signature="testDiscountSystemPageIsDisplayed(java.lang.String)[pri:0, instance:tests.VerifyHeaderButtonsAreClickable@35d019a3]" name="testDiscountSystemPageIsDisplayed" duration-ms="5971" started-at="2020-05-18T13:18:28Z" finished-at="2020-05-18T13:18:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Система скидок]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiscountSystemPageIsDisplayed -->
+        <test-method status="PASS" signature="testLoginWindowIsDisplayed(java.lang.String)[pri:0, instance:tests.VerifyHeaderButtonsAreClickable@35d019a3]" name="testLoginWindowIsDisplayed" duration-ms="4854" started-at="2020-05-18T13:18:34Z" finished-at="2020-05-18T13:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Вход/регистрация]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWindowIsDisplayed -->
+        <test-method status="PASS" signature="testPaymentPageIsDisplayed(java.lang.String)[pri:0, instance:tests.VerifyHeaderButtonsAreClickable@35d019a3]" name="testPaymentPageIsDisplayed" duration-ms="5418" started-at="2020-05-18T13:18:39Z" finished-at="2020-05-18T13:18:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Оплата]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaymentPageIsDisplayed -->
+        <test-method status="PASS" signature="testWarrantyPageIsDisplayed(java.lang.String)[pri:0, instance:tests.VerifyHeaderButtonsAreClickable@35d019a3]" name="testWarrantyPageIsDisplayed" duration-ms="5927" started-at="2020-05-18T13:18:44Z" finished-at="2020-05-18T13:18:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Гарантия]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWarrantyPageIsDisplayed -->
+        <test-method status="PASS" signature="testWishListPageIsDisplayed(java.lang.String)[pri:0, instance:tests.VerifyHeaderButtonsAreClickable@35d019a3]" name="testWishListPageIsDisplayed" duration-ms="6561" started-at="2020-05-18T13:18:50Z" finished-at="2020-05-18T13:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Закладки]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWishListPageIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:tests.VerifyHeaderButtonsAreClickable@35d019a3]" name="closeDown" is-config="true" duration-ms="1019" started-at="2020-05-18T13:18:57Z" finished-at="2020-05-18T13:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- tests.VerifyHeaderButtonsAreClickable -->
+      <class name="tests.VerifyProductAdditionToComparasionList">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.VerifyProductAdditionToComparasionList@55b699ef]" name="setUp" is-config="true" duration-ms="5884" started-at="2020-05-18T13:16:53Z" finished-at="2020-05-18T13:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testProductAdditionToTheList(java.lang.String)[pri:0, instance:tests.VerifyProductAdditionToComparasionList@55b699ef]" name="testProductAdditionToTheList" duration-ms="37230" started-at="2020-05-18T13:16:58Z" finished-at="2020-05-18T13:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Сравнение товаров]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductAdditionToTheList -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:tests.VerifyProductAdditionToComparasionList@55b699ef]" name="closeDown" is-config="true" duration-ms="899" started-at="2020-05-18T13:17:36Z" finished-at="2020-05-18T13:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- tests.VerifyProductAdditionToComparasionList -->
+      <class name="tests.VerifyLoginFunctionality">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.VerifyLoginFunctionality@351d00c0]" name="setUp" is-config="true" duration-ms="7732" started-at="2020-05-18T13:15:21Z" finished-at="2020-05-18T13:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testLoginOption(java.lang.String)[pri:0, instance:tests.VerifyLoginFunctionality@351d00c0]" name="testLoginOption" duration-ms="33912" started-at="2020-05-18T13:15:29Z" finished-at="2020-05-18T13:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Вход/регистрация]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),  'Подписка')]"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW3264', ip: '10.6.57.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\NASTAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 053e083cb27eb6df6f5fb7f6209fb887
+*** Element info: {Using=xpath, value=//p[contains(text(),  'Подписка')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),  'Подписка')]"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW3264', ip: '10.6.57.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\NASTAS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 053e083cb27eb6df6f5fb7f6209fb887
+*** Element info: {Using=xpath, value=//p[contains(text(),  'Подписка')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pages.PersonalAreaPage.personalPageHeader(PersonalAreaPage.java:10)
+at tests.VerifyLoginFunctionality.testLoginOption(VerifyLoginFunctionality.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginOption -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:tests.VerifyLoginFunctionality@351d00c0]" name="closeDown" is-config="true" duration-ms="911" started-at="2020-05-18T13:16:06Z" finished-at="2020-05-18T13:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- tests.VerifyLoginFunctionality -->
+      <class name="tests.VerifyProductIsAddedToCard">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.VerifyProductIsAddedToCard@2a3b5b47]" name="setUp" is-config="true" duration-ms="5827" started-at="2020-05-18T13:16:07Z" finished-at="2020-05-18T13:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAdditionProductToCard()[pri:0, instance:tests.VerifyProductIsAddedToCard@2a3b5b47]" name="testAdditionProductToCard" duration-ms="39216" started-at="2020-05-18T13:16:12Z" finished-at="2020-05-18T13:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionProductToCard -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:tests.VerifyProductIsAddedToCard@2a3b5b47]" name="closeDown" is-config="true" duration-ms="1000" started-at="2020-05-18T13:16:52Z" finished-at="2020-05-18T13:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- tests.VerifyProductIsAddedToCard -->
+      <class name="tests.VerifyProductsCatalogOptions">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.VerifyProductsCatalogOptions@689604d9]" name="setUp" is-config="true" duration-ms="5618" started-at="2020-05-18T13:18:58Z" finished-at="2020-05-18T13:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testChooseProductFromCatalog(java.lang.String)[pri:0, instance:tests.VerifyProductsCatalogOptions@689604d9]" name="testChooseProductFromCatalog" duration-ms="59722" started-at="2020-05-18T13:19:03Z" finished-at="2020-05-18T13:20:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Закладки]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChooseProductFromCatalog -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:tests.VerifyProductsCatalogOptions@689604d9]" name="closeDown" is-config="true" duration-ms="938" started-at="2020-05-18T13:20:03Z" finished-at="2020-05-18T13:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- tests.VerifyProductsCatalogOptions -->
+    </test> <!-- RegressionTests -->
+  </suite> <!-- Calculator operations suite -->
+</testng-results>
